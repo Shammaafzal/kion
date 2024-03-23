@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.hello {
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 4s;
+}
+
+{
+    animation-timing-function: linear;
+}
+
+@Keyframes move {
+    from {
+        left: 0px;
+    }
+    to {
+        right: 20px;
+    }
+}
